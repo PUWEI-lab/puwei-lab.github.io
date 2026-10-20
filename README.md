@@ -1,33 +1,59 @@
-# 吳柏葳 PUWEI WU — Artist portfolio
+# 吳柏葳 PUWEI WU
 
-原生 HTML、CSS、JavaScript 靜態網站，不需安裝套件或編譯。第一版待確認，尚未部署。
+原生 HTML、CSS、JavaScript 的藝術家網站。這是供確認的第二版，未合併至 main、未啟用 GitHub Pages。
 
-## 預覽
+## 版型預覽畫面
 
-直接用瀏覽器開啟根目錄 `index.html`；或在儲存庫目錄執行：
+以下是實際網站在瀏覽器渲染的截圖，並非已發布的網站入口：
+
+- 首頁：[桌機](preview/home-desktop.png)／[手機](preview/home-mobile.png)
+- 繪畫：[桌機](preview/paintings-desktop.png)／[手機](preview/paintings-mobile.png)
+- 裝置／現地創作：[桌機](preview/installations-desktop.png)／[手機](preview/installations-mobile.png)
+- 展覽：[桌機](preview/exhibitions-desktop.png)／[手機](preview/exhibitions-mobile.png)
+- 《茫茫》詳情：[桌機](preview/bong-bong-desktop.png)／[手機](preview/bong-bong-mobile.png)
+
+## 本版架構
+
+- 首頁：姓名與創作代表照；手機直幅、電腦橫幅，保留完整構圖。
+- 繪畫：獨立列表與作品詳情，以完整作品正面照為主要圖片，不裁切作品。
+- 裝置／現地創作：以展覽現場、空間與觀看情境呈現；《茫茫》在此類。
+- 展覽：各展覽分開的現場圖庫，目前依已提供資料列出《倒風內山：文明發酵術》、《怪獸繁榮》、《遺物址》與2023年《看他一臉扁平》。這是本版分類，待藝術家確認。
+- About、CV、Contact：已核對的簡介、學歷、經歷與聯絡資料。
+- 《藍幕劇組》使用同一計畫圖集，六個具名組件的資料在計畫頁內列出，不逐張配對照片。其15張照片署名為劉耀鈞。
+- 《青青的睡去》保留整體計畫與三個組件。《顯視錯誤：404》保留共同創作署名與整體材料清單。
+- 作者排除的作品與經歷不列入。售價、內部核對筆記、私人資料與原始文件不放入網站。
+- 未提供連結的影片暫不顯示播放器，不使用無效的播放按鈕。
+
+## 預覽與檔案位置
+
+直接以瀏覽器開啟根目錄 `index.html` 即可；所有頁面都是靜態 HTML，不需要安裝、編譯或執行 Python。也可在自己的電腦、儲存庫目錄啟動靜態伺服器：
 
 ```sh
-python3 -m http.server 8000 --bind 127.0.0.1
+python3 -m http.server 8000
 ```
 
-在執行指令的電腦開啟 `http://127.0.0.1:8000`，按 Ctrl+C 停止。雲端工作區可使用平台支援的連接埠轉送，或下載檔案至本機預覽。
+然後在同一台電腦的瀏覽器開啟 `http://localhost:8000`。雲端環境的本機埠不是對外預覽網址。
 
-## 替換圖片與內容
+- `index.html`：首頁。
+- `paintings.html`、`installations.html`：兩個作品入口。
+- `works/`：單件作品與計畫頁；組件位於母計畫頁內。
+- `exhibitions.html`、`exhibitions/`：展覽索引與各展覽圖庫。
+- `about.html`、`cv.html`、`contact.html`：藝術家資料。
+- `assets/style.css`：樣式與響應式排版。
+- `assets/site.js`：鍵盤可操作的圖片檢視器；停用JavaScript仍可使用導覽、閱讀作品及開啟圖片。
+- `assets/images/`：供網頁使用的WebP圖檔。原檔留存在內容整理區，網站版本只做尺寸、色彩描述檔轉換與壓縮，不改動畫面或調整彩度、亮度。
+- `assets/catalogue.json`：本版公開作品資料索引，供對照；頁面直接寫入HTML，執行時不依賴讀取此檔案。
 
-- 文字在 `index.html`，樣式在 `assets/style.css`，導覽輔助程式在 `assets/site.js`。
-- SVG 圖片僅為版面佔位，非藝術家作品。將真實圖片放入 `assets/`，例如 `assets/work-01.jpg`。建議壓縮 JPG 或 WebP、長邊約 1600–2400 像素，檔名使用小寫英數與連字號。
-- 在 HTML 替換 `placeholder-wide.svg`、`placeholder-portrait.svg` 對應的 `src`，首頁、列表、詳情都要更新；同步修改 `alt`、真實 `width` 與 `height`。使用 `assets/...` 相對路徑並注意大小寫。
-- 填入作品名稱、年份、媒材、尺寸、介紹、中英文簡介、展覽與駐村紀錄。未取得資料繼續標示「待補」，不填入虛構資訊。
-- 新增作品需複製列表卡片及對應 `article`，讓 `href="#work-04"` 對應唯一 `id="work-04"`，同步修改標題 ID 與 `aria-labelledby`。詳情透過 CSS `:target` 顯示，不依賴 JavaScript。
-- 聯絡欄目前不含假連結。收到資料後，Email 的 `dd` 改為 `<a href="mailto:實際信箱">實際信箱</a>`，Instagram 改為 `<a href="https://www.instagram.com/實際帳號/">@實際帳號</a>`。
-- 正式發布前移除首頁草稿標示與作品區佔位說明，確認公開內容與圖片授權。
+## 如何修改
 
-## 確認第一版後，發布到 GitHub Pages
+在對應的HTML頁面直接修改文字、媒材、尺寸或連結。`assets/catalogue.json`是對照資料，單獨修改它不會自動改變HTML頁面；兩邊應同步更新。
 
-1. 確認設計、補齊資料。本次不推送、不啟用 Pages。
-2. 將確認後的檔案提交並推送到 GitHub `main` 分支。
-3. 儲存庫 **Settings → Pages → Build and deployment**，Source 選 **Deploy from a branch**。
-4. Branch 選 `main`，資料夾選 `/ (root)`，儲存。
-5. 等待部署成功，使用 Settings → Pages 顯示的正式網址，檢查手機排版、作品詳情、圖片與聯絡連結。
+替換圖片時可保留原檔名，或同步修改HTML中的 `src`、`srcset`、`href`、`width`、`height` 及 `alt`。首頁 `<picture>` 的 `<source media="(max-width: 700px)">` 使用直幅，後面的 `<img>` 使用橫幅。作品圖片使用 `object-fit: contain`，勿改為 `cover`，以免裁切完整作品。
 
-此帳號網站預期網址為 `https://puwei-lab.github.io/`；以 GitHub Pages 顯示為準。啟用後推送到來源分支可能更新正式網站。
+網站內部連結使用相對路徑，根目錄圖片以 `assets/` 開頭，子資料夾頁面以 `../assets/` 開頭，部署至GitHub Pages不需重寫路徑。
+
+補影片時在對應展覽頁加入已確認的影片網址與嵌入碼。《看他一臉扁平》、《怪獸繁榮》的個展紀錄影片與《怪獸早已出現》的錄像作品應分開標示。
+
+## 確認後才發布
+
+目前修改僅用於 `website-preview` 分支，不啟用Pages、不合併。待藝術家確認版型、分類、內容與選圖後，再合併至 `main`；屆時才到GitHub儲存庫 Settings → Pages 選擇由 `main` 的根目錄部署。本次不執行發布設定。
