@@ -1,0 +1,182 @@
+[
+  {
+    "id": "dau-hong-2026",
+    "zh": "倒風內山：文明發酵術",
+    "en": "",
+    "year": "2026",
+    "venue": "藝非凡非術館，臺南，臺灣",
+    "context": "聯展 Group exhibition",
+    "group": "island-wind-inland",
+    "cover": "island-wind-inland-010"
+  },
+  {
+    "id": "kaiju-boom-2025",
+    "zh": "怪獸繁榮",
+    "en": "Kaiju Boom",
+    "year": "2025",
+    "venue": "福利社，臺北，臺灣",
+    "context": "個展 Solo exhibition",
+    "group": "kaiju-boom-solo",
+    "cover": "kaiju-boom-solo-011",
+    "date": "2025.09.06–10.03",
+    "work_ids": []
+  },
+  {
+    "id": "keelung-ciao-2025",
+    "zh": "2025基隆潮藝術",
+    "en": "",
+    "year": "2025",
+    "venue": "福氣委託行，基隆，臺灣",
+    "context": "聯展 Group exhibition",
+    "group": "hybrid-youths",
+    "cover": "hybrid-youths-001",
+    "date": "2025.09.26–10.26",
+    "work_ids": [
+      "W59"
+    ],
+    "url": "https://keelungciaoart.tw/"
+  },
+  {
+    "id": "matsu-biennial-2025",
+    "zh": "第三屆馬祖國際藝術島",
+    "en": "",
+    "year": "2025",
+    "venue": "馬祖日報故事館，連江，臺灣",
+    "context": "聯展 Group exhibition",
+    "group": "go-go",
+    "cover": "go-go-006",
+    "date": "2025.09.05–11.16",
+    "theme": "拍楸——你的海洋，我的陸",
+    "work_ids": [
+      "W58"
+    ],
+    "url": "https://matsubiennial.tw/"
+  },
+  {
+    "id": "residual-site-2025",
+    "zh": "遺物址",
+    "en": "",
+    "year": "2025",
+    "venue": "關渡美術館，臺北，臺灣",
+    "context": "聯展 Group exhibition",
+    "group": "superflat-2025",
+    "cover": "superflat-2025-003",
+    "work_ids": [
+      "W49"
+    ]
+  },
+  {
+    "id": "welcome-leverage-2025",
+    "zh": "歡迎光臨介力屋",
+    "en": "",
+    "year": "2025",
+    "venue": "水谷藝術，臺北，臺灣",
+    "context": "聯展 Group exhibition",
+    "group": "chroma-set",
+    "cover": "chroma-set-001",
+    "work_ids": [
+      "W57"
+    ]
+  },
+  {
+    "id": "not-a-soldier-2025",
+    "zh": "not / A SOLDIER",
+    "en": "",
+    "year": "2025",
+    "venue": "黃金町，橫濱，日本",
+    "context": "聯展 Group exhibition",
+    "group": "until-it-blooms",
+    "cover": null,
+    "work_ids": [
+      "W69"
+    ]
+  },
+  {
+    "id": "a-little-thing-a-grand-swing",
+    "zh": "小事一樁，大戰一場",
+    "en": "A Little Thing, A Grand Swing",
+    "year": "2024–2025",
+    "venue": "ss space space，八里，新北，臺灣",
+    "context": "聯展 Group exhibition",
+    "group": "little-thing-grand-swing",
+    "cover": "little-thing-grand-swing-001",
+    "date": "2024.12.22–2025.02.16",
+    "url": "https://www.ssspacespace.work/gallery"
+  },
+  {
+    "id": "west-taipei-2024",
+    "zh": "2024城西生活節",
+    "en": "",
+    "year": "2024",
+    "venue": "剝皮寮歷史街區，臺北，臺灣",
+    "context": "聯展 Group exhibition",
+    "group": "herb-insomnia",
+    "cover": "herb-insomnia-001",
+    "groups": [
+      "herb-insomnia",
+      "herb-gathering",
+      "herb-alley"
+    ],
+    "theme": "笑杯、聖杯、喝一杯",
+    "work_ids": [
+      "W56"
+    ]
+  },
+  {
+    "id": "koganecho-bazaar-2024",
+    "zh": "黃金町巴扎2024",
+    "en": "Koganecho Bazaar 2024 — The World, Not According to Art",
+    "year": "2024",
+    "venue": "黃金町地區，橫濱，日本",
+    "context": "聯展 Group exhibition",
+    "group": "koganecho",
+    "cover": "koganecho-001",
+    "date": "2024.03.15–06.09",
+    "work_ids": [
+      "W51"
+    ],
+    "url": "https://www.yokohamatriennale.jp/2024/en/many-many-arts/3443/"
+  },
+  {
+    "id": "superflat-2023",
+    "zh": "看他一臉扁平",
+    "en": "He Looks SUPERFLAT.",
+    "year": "2023",
+    "venue": "新竹市鐵道藝術村，新竹，臺灣",
+    "context": "個展 Solo exhibition",
+    "group": "superflat-2023",
+    "cover": "superflat-2023-019",
+    "work_ids": [
+      "W49"
+    ]
+  },
+  {
+    "id": "signal-z-2023",
+    "zh": "Signal Z",
+    "en": "",
+    "year": "2023",
+    "venue": "台北當代藝術館，臺北，臺灣",
+    "context": "聯展 Group exhibition",
+    "group": "vision404",
+    "cover": "vision404-018",
+    "date": "2023.07.29–10.22",
+    "work_ids": [
+      "W50"
+    ],
+    "url": "https://www.moca.taipei/tw/ExhibitionAndEvent/Info/Signal*Z_1056"
+  },
+  {
+    "id": "tnua-contemporary-art-prize-2022",
+    "zh": "2022北藝當代創作獎",
+    "en": "",
+    "year": "2022",
+    "venue": "關渡美術館，臺北，臺灣",
+    "context": "聯展 Group exhibition",
+    "group": "look-over-there",
+    "cover": "look-over-there-004",
+    "date": "2022.06.10–09.04",
+    "work_ids": [
+      "W47"
+    ]
+  }
+]

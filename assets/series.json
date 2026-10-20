@@ -1,0 +1,199 @@
+[
+  {
+    "id": "kaiju-boom",
+    "zh": "怪獸繁榮",
+    "en": "Kaiju Boom",
+    "members": [
+      "W17",
+      "W18",
+      "W19",
+      "W20",
+      "W21",
+      "W22",
+      "W23",
+      "W24",
+      "W25",
+      "W26",
+      "W28",
+      "W29",
+      "W30",
+      "W31",
+      "W32",
+      "W33",
+      "W34",
+      "W35",
+      "W36",
+      "W37",
+      "W38",
+      "W39",
+      "W40",
+      "W41",
+      "W42",
+      "W43",
+      "W44",
+      "W45",
+      "W46",
+      "W54",
+      "W55",
+      "W64",
+      "W65"
+    ],
+    "cover": "kaiju-boom-2026-003",
+    "path": "series/kaiju-boom.html"
+  },
+  {
+    "id": "big-duel",
+    "zh": "大決闘",
+    "en": "BIG DUEL",
+    "members": [
+      "W01",
+      "W02",
+      "W03",
+      "W04",
+      "W05",
+      "W06",
+      "W07",
+      "W09",
+      "W10",
+      "W11",
+      "W12",
+      "W13",
+      "W14",
+      "W15",
+      "W16"
+    ],
+    "cover": "big-duel-021",
+    "path": "series/big-duel.html"
+  },
+  {
+    "id": "li-shen",
+    "zh": "李神到厚櫃間的________",
+    "en": "",
+    "members": [
+      "W52",
+      "W53"
+    ],
+    "cover": "li-shen-001",
+    "path": "series/li-shen.html"
+  },
+  {
+    "id": "w69",
+    "zh": "直至綻放",
+    "en": "Until It Blooms",
+    "members": [
+      "W69"
+    ],
+    "cover": null,
+    "path": "works/w69.html"
+  },
+  {
+    "id": "w59",
+    "zh": "混血青年",
+    "en": "Hybrid Youths",
+    "members": [
+      "W59"
+    ],
+    "cover": "hybrid-youths-001",
+    "path": "works/w59.html"
+  },
+  {
+    "id": "w58",
+    "zh": "行吧行吧，依哥依爸",
+    "en": "Go Go Brother, Go Go Father",
+    "members": [
+      "W58"
+    ],
+    "cover": "go-go-006",
+    "path": "works/w58.html"
+  },
+  {
+    "id": "w57",
+    "zh": "藍幕劇組",
+    "en": "Chroma Set",
+    "members": [
+      "W57"
+    ],
+    "cover": "chroma-set-001",
+    "path": "works/w57.html"
+  },
+  {
+    "id": "w27",
+    "zh": "片廠佈景",
+    "en": "Matte Paintings and Miniature Sets",
+    "members": [
+      "W27"
+    ],
+    "cover": "kaiju-boom-solo-012",
+    "path": "works/w27.html"
+  },
+  {
+    "id": "w56",
+    "zh": "青青的睡去",
+    "en": "Hit the Herb",
+    "members": [
+      "W56"
+    ],
+    "cover": "herb-insomnia-001",
+    "path": "works/w56.html"
+  },
+  {
+    "id": "w51",
+    "zh": "是什麼使今天的黃金町如此不同，如此充滿魅力？",
+    "en": "Just What is It That Makes Today’s Koganecho So Different, So Appealing?",
+    "members": [
+      "W51"
+    ],
+    "cover": "koganecho-001",
+    "path": "works/w51.html"
+  },
+  {
+    "id": "w50",
+    "zh": "顯視錯誤：404",
+    "en": "vision404",
+    "members": [
+      "W50"
+    ],
+    "cover": "vision404-018",
+    "path": "works/w50.html"
+  },
+  {
+    "id": "w49",
+    "zh": "看他一臉扁平",
+    "en": "He Looks SUPERFLAT.",
+    "members": [
+      "W49"
+    ],
+    "cover": "superflat-2023-019",
+    "path": "works/w49.html"
+  },
+  {
+    "id": "w48",
+    "zh": "茫茫",
+    "en": "bông-bông",
+    "members": [
+      "W48"
+    ],
+    "cover": "bong-bong-005",
+    "path": "works/w48.html"
+  },
+  {
+    "id": "w47",
+    "zh": "走著瞧！",
+    "en": "Look over There!",
+    "members": [
+      "W47"
+    ],
+    "cover": "look-over-there-002",
+    "path": "works/w47.html"
+  },
+  {
+    "id": "w08",
+    "zh": "可士十六",
+    "en": "godzilla.zip",
+    "members": [
+      "W08"
+    ],
+    "cover": "godzilla-zip-006",
+    "path": "works/w08.html"
+  }
+]
