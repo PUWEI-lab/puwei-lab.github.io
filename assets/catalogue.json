@@ -1193,21 +1193,47 @@
         "title_en": "Hit the Herb-Insomnia",
         "year": "2024",
         "medium": "帆布、木材、浪板、角鋼、五金、水性漆",
-        "dimensions": "依場地而定"
+        "dimensions": "依場地而定",
+        "id": "w66",
+        "page": "works/w56.html#w66",
+        "images": [
+          "assets/images/herb-insomnia-001-view.webp",
+          "assets/images/herb-insomnia-002-view.webp",
+          "assets/images/herb-insomnia-003-view.webp"
+        ]
       },
       {
         "title_zh": "青青的睡去—採藥",
         "title_en": "Hit the Herb-Herb Gathering",
         "year": "2024",
         "medium": "帆布、木材、浪板、角鋼、五金、水性漆、現成物",
-        "dimensions": "依場地而定"
+        "dimensions": "依場地而定",
+        "id": "w68",
+        "page": "works/w56.html#w68",
+        "images": [
+          "assets/images/herb-gathering-001-view.webp",
+          "assets/images/herb-gathering-002-view.webp",
+          "assets/images/herb-gathering-003-view.webp",
+          "assets/images/herb-gathering-004-view.webp",
+          "assets/images/herb-gathering-005-view.webp",
+          "assets/images/herb-gathering-006-view.webp"
+        ]
       },
       {
         "title_zh": "青青的睡去—青草巷",
         "title_en": "Hit the Herb-Herb Alley",
         "year": "2024",
         "medium": "帆布、木材、五金、水性漆、現成物、鷹架",
-        "dimensions": "依場地而定"
+        "dimensions": "依場地而定",
+        "id": "w67",
+        "page": "works/w56.html#w67",
+        "images": [
+          "assets/images/herb-alley-001-view.webp",
+          "assets/images/herb-alley-002-view.webp",
+          "assets/images/herb-alley-003-view.webp",
+          "assets/images/herb-alley-004-view.webp",
+          "assets/images/herb-alley-005-view.webp"
+        ]
       }
     ],
     "exhibitions": [

@@ -39,7 +39,287 @@
       "W65"
     ],
     "cover": "kaiju-boom-2026-003",
-    "path": "series/kaiju-boom.html"
+    "path": "series/kaiju-boom.html",
+    "latest_year": 2026,
+    "navigation_items": [
+      {
+        "work_id": "W40",
+        "title": "電塔電流爆",
+        "path": "series/kaiju-boom.html#w40"
+      },
+      {
+        "work_id": "W41",
+        "title": "演算的臨演03",
+        "path": "series/kaiju-boom.html#w41"
+      },
+      {
+        "work_id": "W42",
+        "title": "漏電",
+        "path": "series/kaiju-boom.html#w42"
+      },
+      {
+        "work_id": "W43",
+        "title": "電流極急",
+        "path": "series/kaiju-boom.html#w43"
+      },
+      {
+        "work_id": "W44",
+        "title": "勒索外星牛",
+        "path": "series/kaiju-boom.html#w44"
+      },
+      {
+        "work_id": "W45",
+        "title": "火燒島",
+        "path": "series/kaiju-boom.html#w45"
+      },
+      {
+        "work_id": "W46",
+        "title": "電塔山景",
+        "path": "series/kaiju-boom.html#w46"
+      },
+      {
+        "work_id": "W17",
+        "title": "災難畫報",
+        "path": "series/kaiju-boom.html#w17"
+      },
+      {
+        "work_id": "W18",
+        "title": "卡麥拉轟炸",
+        "path": "series/kaiju-boom.html#w18"
+      },
+      {
+        "work_id": "W19",
+        "title": "燃燒吧怪獸",
+        "path": "series/kaiju-boom.html#w19"
+      },
+      {
+        "work_id": "W20",
+        "title": "驚恐的山根惠美子",
+        "path": "series/kaiju-boom.html#w20"
+      },
+      {
+        "work_id": "W21",
+        "title": "怪獸們繼續作戰下去",
+        "path": "series/kaiju-boom.html#w21"
+      },
+      {
+        "work_id": "W22",
+        "title": "太爆炸了02",
+        "path": "series/kaiju-boom.html#w22"
+      },
+      {
+        "work_id": "W23",
+        "title": "巨大科學兵器模型",
+        "path": "series/kaiju-boom.html#w23"
+      },
+      {
+        "work_id": "W25",
+        "title": "演算的臨演02",
+        "path": "series/kaiju-boom.html#w25"
+      },
+      {
+        "work_id": "W31",
+        "title": "像素峽谷02",
+        "path": "series/kaiju-boom.html#w31"
+      },
+      {
+        "work_id": "W32",
+        "title": "怪獸的大叔",
+        "path": "series/kaiju-boom.html#w32"
+      },
+      {
+        "work_id": "W33",
+        "title": "刺繡橫須賀",
+        "path": "series/kaiju-boom.html#w33"
+      },
+      {
+        "work_id": "W35",
+        "title": "怪獸",
+        "path": "series/kaiju-boom.html#w35"
+      },
+      {
+        "work_id": "W36",
+        "title": "皮套人偶",
+        "path": "series/kaiju-boom.html#w36"
+      },
+      {
+        "work_id": "W38",
+        "title": "怪獸早已出現",
+        "path": "series/kaiju-boom.html#w38"
+      },
+      {
+        "work_id": "W39",
+        "title": "怪獣の進撃",
+        "path": "series/kaiju-boom.html#w39"
+      },
+      {
+        "work_id": "W30",
+        "title": "擊落他們！",
+        "path": "series/kaiju-boom.html#w30"
+      },
+      {
+        "work_id": "W37",
+        "title": "皮套演員03",
+        "path": "series/kaiju-boom.html#w37"
+      },
+      {
+        "work_id": "W54",
+        "title": "像素峽谷01",
+        "path": "series/kaiju-boom.html#w54"
+      },
+      {
+        "work_id": "W24",
+        "title": "演算的臨演01",
+        "path": "series/kaiju-boom.html#w24"
+      },
+      {
+        "work_id": "W26",
+        "title": "皮套演員02",
+        "path": "series/kaiju-boom.html#w26"
+      },
+      {
+        "work_id": "W28",
+        "title": "隱形戰鬥機",
+        "path": "series/kaiju-boom.html#w28"
+      },
+      {
+        "work_id": "W29",
+        "title": "太爆炸了01",
+        "path": "series/kaiju-boom.html#w29"
+      },
+      {
+        "work_id": "W34",
+        "title": "一切的起源",
+        "path": "series/kaiju-boom.html#w34"
+      },
+      {
+        "work_id": "W55",
+        "title": "皮套演員01",
+        "path": "series/kaiju-boom.html#w55"
+      },
+      {
+        "work_id": "W64",
+        "title": "片廠02",
+        "path": "series/kaiju-boom.html#w64"
+      },
+      {
+        "work_id": "W65",
+        "title": "面對面",
+        "path": "series/kaiju-boom.html#w65"
+      }
+    ]
+  },
+  {
+    "id": "w69",
+    "zh": "直至綻放",
+    "en": "Until It Blooms",
+    "members": [
+      "W69"
+    ],
+    "cover": "until-it-blooms-001",
+    "path": "works/w69.html",
+    "latest_year": 2025,
+    "navigation_items": []
+  },
+  {
+    "id": "w59",
+    "zh": "混血青年",
+    "en": "Hybrid Youths",
+    "members": [
+      "W59"
+    ],
+    "cover": "hybrid-youths-001",
+    "path": "works/w59.html",
+    "latest_year": 2025,
+    "navigation_items": []
+  },
+  {
+    "id": "w58",
+    "zh": "行吧行吧，依哥依爸",
+    "en": "Go Go Brother, Go Go Father",
+    "members": [
+      "W58"
+    ],
+    "cover": "go-go-006",
+    "path": "works/w58.html",
+    "latest_year": 2025,
+    "navigation_items": []
+  },
+  {
+    "id": "w57",
+    "zh": "藍幕劇組",
+    "en": "Chroma Set",
+    "members": [
+      "W57"
+    ],
+    "cover": "chroma-set-001",
+    "path": "works/w57.html",
+    "latest_year": 2025,
+    "navigation_items": []
+  },
+  {
+    "id": "w27",
+    "zh": "片廠佈景",
+    "en": "Matte Paintings and Miniature Sets",
+    "members": [
+      "W27"
+    ],
+    "cover": "kaiju-boom-solo-012",
+    "path": "works/w27.html",
+    "latest_year": 2025,
+    "navigation_items": []
+  },
+  {
+    "id": "w49",
+    "zh": "看他一臉扁平",
+    "en": "He Looks SUPERFLAT.",
+    "members": [
+      "W49"
+    ],
+    "cover": "superflat-2023-019",
+    "path": "works/w49.html",
+    "latest_year": 2025,
+    "navigation_items": []
+  },
+  {
+    "id": "w56",
+    "zh": "青青的睡去",
+    "en": "Hit the Herb",
+    "members": [
+      "W56"
+    ],
+    "cover": "herb-insomnia-001",
+    "path": "works/w56.html",
+    "latest_year": 2024,
+    "navigation_items": [
+      {
+        "work_id": "W66",
+        "title": "青青的睡去—失眠",
+        "path": "works/w56.html#w66"
+      },
+      {
+        "work_id": "W68",
+        "title": "青青的睡去—採藥",
+        "path": "works/w56.html#w68"
+      },
+      {
+        "work_id": "W67",
+        "title": "青青的睡去—青草巷",
+        "path": "works/w56.html#w67"
+      }
+    ]
+  },
+  {
+    "id": "w51",
+    "zh": "是什麼使今天的黃金町如此不同，如此充滿魅力？",
+    "en": "Just What is It That Makes Today’s Koganecho So Different, So Appealing?",
+    "members": [
+      "W51"
+    ],
+    "cover": "koganecho-001",
+    "path": "works/w51.html",
+    "latest_year": 2024,
+    "navigation_items": []
   },
   {
     "id": "big-duel",
@@ -63,7 +343,85 @@
       "W16"
     ],
     "cover": "big-duel-021",
-    "path": "series/big-duel.html"
+    "path": "series/big-duel.html",
+    "latest_year": 2023,
+    "navigation_items": [
+      {
+        "work_id": "W12",
+        "title": "戰鬥卡牌-卡拉蒙",
+        "path": "series/big-duel.html#w12"
+      },
+      {
+        "work_id": "W13",
+        "title": "戰鬥卡牌-鹹蛋超人",
+        "path": "series/big-duel.html#w13"
+      },
+      {
+        "work_id": "W14",
+        "title": "綠幕決鬥",
+        "path": "series/big-duel.html#w14"
+      },
+      {
+        "work_id": "W15",
+        "title": "塗裝",
+        "path": "series/big-duel.html#w15"
+      },
+      {
+        "work_id": "W16",
+        "title": "不穩定",
+        "path": "series/big-duel.html#w16"
+      },
+      {
+        "work_id": "W01",
+        "title": "光火哥吉拉",
+        "path": "series/big-duel.html#w01"
+      },
+      {
+        "work_id": "W03",
+        "title": "星火貝姆拉",
+        "path": "series/big-duel.html#w03"
+      },
+      {
+        "work_id": "W04",
+        "title": "哥吉拉1962",
+        "path": "series/big-duel.html#w04"
+      },
+      {
+        "work_id": "W05",
+        "title": "傑頓",
+        "path": "series/big-duel.html#w05"
+      },
+      {
+        "work_id": "W06",
+        "title": "哥吉拉2016",
+        "path": "series/big-duel.html#w06"
+      },
+      {
+        "work_id": "W07",
+        "title": "金剛1962",
+        "path": "series/big-duel.html#w07"
+      },
+      {
+        "work_id": "W09",
+        "title": "金剛爆炸",
+        "path": "series/big-duel.html#w09"
+      },
+      {
+        "work_id": "W10",
+        "title": "哥吉拉父子",
+        "path": "series/big-duel.html#w10"
+      },
+      {
+        "work_id": "W02",
+        "title": "鹹蛋超人初代",
+        "path": "series/big-duel.html#w02"
+      },
+      {
+        "work_id": "W11",
+        "title": "賽文21與雷歐斯",
+        "path": "series/big-duel.html#w11"
+      }
+    ]
   },
   {
     "id": "li-shen",
@@ -74,77 +432,20 @@
       "W53"
     ],
     "cover": "li-shen-001",
-    "path": "series/li-shen.html"
-  },
-  {
-    "id": "w69",
-    "zh": "直至綻放",
-    "en": "Until It Blooms",
-    "members": [
-      "W69"
-    ],
-    "cover": "until-it-blooms-001",
-    "path": "works/w69.html"
-  },
-  {
-    "id": "w59",
-    "zh": "混血青年",
-    "en": "Hybrid Youths",
-    "members": [
-      "W59"
-    ],
-    "cover": "hybrid-youths-001",
-    "path": "works/w59.html"
-  },
-  {
-    "id": "w58",
-    "zh": "行吧行吧，依哥依爸",
-    "en": "Go Go Brother, Go Go Father",
-    "members": [
-      "W58"
-    ],
-    "cover": "go-go-006",
-    "path": "works/w58.html"
-  },
-  {
-    "id": "w57",
-    "zh": "藍幕劇組",
-    "en": "Chroma Set",
-    "members": [
-      "W57"
-    ],
-    "cover": "chroma-set-001",
-    "path": "works/w57.html"
-  },
-  {
-    "id": "w27",
-    "zh": "片廠佈景",
-    "en": "Matte Paintings and Miniature Sets",
-    "members": [
-      "W27"
-    ],
-    "cover": "kaiju-boom-solo-012",
-    "path": "works/w27.html"
-  },
-  {
-    "id": "w56",
-    "zh": "青青的睡去",
-    "en": "Hit the Herb",
-    "members": [
-      "W56"
-    ],
-    "cover": "herb-insomnia-001",
-    "path": "works/w56.html"
-  },
-  {
-    "id": "w51",
-    "zh": "是什麼使今天的黃金町如此不同，如此充滿魅力？",
-    "en": "Just What is It That Makes Today’s Koganecho So Different, So Appealing?",
-    "members": [
-      "W51"
-    ],
-    "cover": "koganecho-001",
-    "path": "works/w51.html"
+    "path": "series/li-shen.html",
+    "latest_year": 2023,
+    "navigation_items": [
+      {
+        "work_id": "W52",
+        "title": "李神到厚櫃間的________",
+        "path": "series/li-shen.html#w52"
+      },
+      {
+        "work_id": "W53",
+        "title": "李神到厚櫃間的________拷貝",
+        "path": "series/li-shen.html#w53"
+      }
+    ]
   },
   {
     "id": "w50",
@@ -154,17 +455,9 @@
       "W50"
     ],
     "cover": "vision404-018",
-    "path": "works/w50.html"
-  },
-  {
-    "id": "w49",
-    "zh": "看他一臉扁平",
-    "en": "He Looks SUPERFLAT.",
-    "members": [
-      "W49"
-    ],
-    "cover": "superflat-2023-019",
-    "path": "works/w49.html"
+    "path": "works/w50.html",
+    "latest_year": 2023,
+    "navigation_items": []
   },
   {
     "id": "w48",
@@ -174,7 +467,9 @@
       "W48"
     ],
     "cover": "bong-bong-005",
-    "path": "works/w48.html"
+    "path": "works/w48.html",
+    "latest_year": 2023,
+    "navigation_items": []
   },
   {
     "id": "w47",
@@ -184,7 +479,9 @@
       "W47"
     ],
     "cover": "look-over-there-002",
-    "path": "works/w47.html"
+    "path": "works/w47.html",
+    "latest_year": 2022,
+    "navigation_items": []
   },
   {
     "id": "w08",
@@ -194,6 +491,8 @@
       "W08"
     ],
     "cover": "godzilla-zip-006",
-    "path": "works/w08.html"
+    "path": "works/w08.html",
+    "latest_year": 2021,
+    "navigation_items": []
   }
 ]

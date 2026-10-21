@@ -17,6 +17,21 @@
     ]
   },
   {
+    "id": "keelung-ciao-2025",
+    "zh": "2025基隆潮藝術",
+    "en": "",
+    "year": "2025",
+    "venue": "福氣委託行，基隆，臺灣",
+    "context": "聯展 Group exhibition",
+    "group": "hybrid-youths",
+    "cover": "hybrid-youths-001",
+    "date": "2025.09.26–10.26",
+    "work_ids": [
+      "W59"
+    ],
+    "url": "https://keelungciaoart.tw/"
+  },
+  {
     "id": "kaiju-boom-2025",
     "zh": "怪獸繁榮",
     "en": "Kaiju Boom",
@@ -45,21 +60,6 @@
       "W38",
       "W39"
     ]
-  },
-  {
-    "id": "keelung-ciao-2025",
-    "zh": "2025基隆潮藝術",
-    "en": "",
-    "year": "2025",
-    "venue": "福氣委託行，基隆，臺灣",
-    "context": "聯展 Group exhibition",
-    "group": "hybrid-youths",
-    "cover": "hybrid-youths-001",
-    "date": "2025.09.26–10.26",
-    "work_ids": [
-      "W59"
-    ],
-    "url": "https://keelungciaoart.tw/"
   },
   {
     "id": "matsu-biennial-2025",
@@ -145,6 +145,21 @@
     ]
   },
   {
+    "id": "koganecho-bazaar-2024",
+    "zh": "黃金町巴扎2024",
+    "en": "Koganecho Bazaar 2024 — The World, Not According to Art",
+    "year": "2024",
+    "venue": "黃金町地區，橫濱，日本",
+    "context": "聯展 Group exhibition",
+    "group": "koganecho",
+    "cover": "koganecho-001",
+    "date": "2024.03.15–06.09",
+    "work_ids": [
+      "W51"
+    ],
+    "url": "https://www.yokohamatriennale.jp/2024/en/many-many-arts/3443/"
+  },
+  {
     "id": "west-taipei-2024",
     "zh": "2024城西生活節",
     "en": "",
@@ -167,34 +182,6 @@
     ]
   },
   {
-    "id": "koganecho-bazaar-2024",
-    "zh": "黃金町巴扎2024",
-    "en": "Koganecho Bazaar 2024 — The World, Not According to Art",
-    "year": "2024",
-    "venue": "黃金町地區，橫濱，日本",
-    "context": "聯展 Group exhibition",
-    "group": "koganecho",
-    "cover": "koganecho-001",
-    "date": "2024.03.15–06.09",
-    "work_ids": [
-      "W51"
-    ],
-    "url": "https://www.yokohamatriennale.jp/2024/en/many-many-arts/3443/"
-  },
-  {
-    "id": "superflat-2023",
-    "zh": "看他一臉扁平",
-    "en": "He Looks SUPERFLAT.",
-    "year": "2023",
-    "venue": "新竹市鐵道藝術村，新竹，臺灣",
-    "context": "個展 Solo exhibition",
-    "group": "superflat-2023",
-    "cover": "superflat-2023-019",
-    "work_ids": [
-      "W49"
-    ]
-  },
-  {
     "id": "signal-z-2023",
     "zh": "Signal Z",
     "en": "",
@@ -208,6 +195,19 @@
       "W50"
     ],
     "url": "https://www.moca.taipei/tw/ExhibitionAndEvent/Info/Signal*Z_1056"
+  },
+  {
+    "id": "superflat-2023",
+    "zh": "看他一臉扁平",
+    "en": "He Looks SUPERFLAT.",
+    "year": "2023",
+    "venue": "新竹市鐵道藝術村，新竹，臺灣",
+    "context": "個展 Solo exhibition",
+    "group": "superflat-2023",
+    "cover": "superflat-2023-019",
+    "work_ids": [
+      "W49"
+    ]
   },
   {
     "id": "tnua-contemporary-art-prize-2022",

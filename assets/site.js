@@ -1,3 +1,26 @@
+// Text navigation works without JavaScript; enhance active in-page links.
+(() => {
+  function updateLocation() {
+    const id = location.hash.slice(1);
+    document.querySelectorAll('[data-work-anchor]').forEach(link => {
+      const target = new URL(link.href);
+      if (target.pathname !== location.pathname) return;
+      const selected = id && link.dataset.workAnchor === id;
+      if (selected) {
+        link.setAttribute('aria-current', 'location');
+        for (let parent = link.parentElement; parent; parent = parent.parentElement) {
+          if (parent.matches('.section-nav, .series-nav')) parent.open = true;
+        }
+      } else link.removeAttribute('aria-current');
+    });
+  }
+  updateLocation();
+  window.addEventListener('hashchange', updateLocation);
+  document.querySelectorAll('.mobile-menu a').forEach(link => {
+    link.addEventListener('click', () => { link.closest('.mobile-menu').open = false; });
+  });
+})();
+
 // Every page and full-size image link works without JavaScript.
 // This optional viewer adds keyboard navigation and focus restoration.
 (() => {
