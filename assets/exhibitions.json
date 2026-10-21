@@ -7,7 +7,14 @@
     "venue": "藝非凡非術館，臺南，臺灣",
     "context": "聯展 Group exhibition",
     "group": "island-wind-inland",
-    "cover": "island-wind-inland-010"
+    "cover": "island-wind-inland-010",
+    "work_ids": [
+      "W46",
+      "W40",
+      "W41",
+      "W20",
+      "W19"
+    ]
   },
   {
     "id": "kaiju-boom-2025",
@@ -19,7 +26,25 @@
     "group": "kaiju-boom-solo",
     "cover": "kaiju-boom-solo-011",
     "date": "2025.09.06–10.03",
-    "work_ids": []
+    "work_ids": [
+      "W17",
+      "W18",
+      "W19",
+      "W20",
+      "W21",
+      "W22",
+      "W24",
+      "W25",
+      "W26",
+      "W27",
+      "W28",
+      "W31",
+      "W32",
+      "W35",
+      "W36",
+      "W38",
+      "W39"
+    ]
   },
   {
     "id": "keelung-ciao-2025",
@@ -75,7 +100,13 @@
     "group": "chroma-set",
     "cover": "chroma-set-001",
     "work_ids": [
-      "W57"
+      "W57",
+      "W72",
+      "W73",
+      "W71",
+      "W70",
+      "W75",
+      "W74"
     ]
   },
   {
@@ -86,7 +117,7 @@
     "venue": "黃金町，橫濱，日本",
     "context": "聯展 Group exhibition",
     "group": "until-it-blooms",
-    "cover": null,
+    "cover": "until-it-blooms-001",
     "work_ids": [
       "W69"
     ]
@@ -101,7 +132,17 @@
     "group": "little-thing-grand-swing",
     "cover": "little-thing-grand-swing-001",
     "date": "2024.12.22–2025.02.16",
-    "url": "https://www.ssspacespace.work/gallery"
+    "url": "https://www.ssspacespace.work/gallery",
+    "work_ids": [
+      "W15",
+      "W24",
+      "W26",
+      "W28",
+      "W34",
+      "W37",
+      "W54",
+      "W55"
+    ]
   },
   {
     "id": "west-taipei-2024",
@@ -119,7 +160,10 @@
     ],
     "theme": "笑杯、聖杯、喝一杯",
     "work_ids": [
-      "W56"
+      "W56",
+      "W66",
+      "W68",
+      "W67"
     ]
   },
   {
