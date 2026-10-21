@@ -14,6 +14,7 @@
       "W24",
       "W25",
       "W26",
+      "W27",
       "W28",
       "W29",
       "W30",
@@ -41,6 +42,8 @@
     "cover": "kaiju-boom-2026-003",
     "path": "series/kaiju-boom.html",
     "latest_year": 2026,
+    "latest_work_date": "2026",
+    "latest_work_date_precision": "year",
     "navigation_items": [
       {
         "work_id": "W40",
@@ -116,6 +119,11 @@
         "work_id": "W25",
         "title": "演算的臨演02",
         "path": "series/kaiju-boom.html#w25"
+      },
+      {
+        "work_id": "W27",
+        "title": "片廠佈景",
+        "path": "series/kaiju-boom.html#w27"
       },
       {
         "work_id": "W31",
@@ -219,6 +227,8 @@
     "cover": "until-it-blooms-001",
     "path": "works/w69.html",
     "latest_year": 2025,
+    "latest_work_date": "2025",
+    "latest_work_date_precision": "year",
     "navigation_items": []
   },
   {
@@ -231,6 +241,8 @@
     "cover": "hybrid-youths-001",
     "path": "works/w59.html",
     "latest_year": 2025,
+    "latest_work_date": "2025",
+    "latest_work_date_precision": "year",
     "navigation_items": []
   },
   {
@@ -243,6 +255,8 @@
     "cover": "go-go-006",
     "path": "works/w58.html",
     "latest_year": 2025,
+    "latest_work_date": "2025",
+    "latest_work_date_precision": "year",
     "navigation_items": []
   },
   {
@@ -255,18 +269,8 @@
     "cover": "chroma-set-001",
     "path": "works/w57.html",
     "latest_year": 2025,
-    "navigation_items": []
-  },
-  {
-    "id": "w27",
-    "zh": "片廠佈景",
-    "en": "Matte Paintings and Miniature Sets",
-    "members": [
-      "W27"
-    ],
-    "cover": "kaiju-boom-solo-012",
-    "path": "works/w27.html",
-    "latest_year": 2025,
+    "latest_work_date": "2025",
+    "latest_work_date_precision": "year",
     "navigation_items": []
   },
   {
@@ -279,6 +283,8 @@
     "cover": "superflat-2023-019",
     "path": "works/w49.html",
     "latest_year": 2025,
+    "latest_work_date": "2025",
+    "latest_work_date_precision": "year",
     "navigation_items": []
   },
   {
@@ -291,6 +297,8 @@
     "cover": "herb-insomnia-001",
     "path": "works/w56.html",
     "latest_year": 2024,
+    "latest_work_date": "2024",
+    "latest_work_date_precision": "year",
     "navigation_items": [
       {
         "work_id": "W66",
@@ -319,7 +327,49 @@
     "cover": "koganecho-001",
     "path": "works/w51.html",
     "latest_year": 2024,
+    "latest_work_date": "2024",
+    "latest_work_date_precision": "year",
     "navigation_items": []
+  },
+  {
+    "id": "w50",
+    "zh": "顯視錯誤：404",
+    "en": "vision404",
+    "members": [
+      "W50"
+    ],
+    "cover": "vision404-018",
+    "path": "works/w50.html",
+    "latest_year": 2023,
+    "latest_work_date": "2023.07",
+    "latest_work_date_precision": "month",
+    "navigation_items": []
+  },
+  {
+    "id": "li-shen",
+    "zh": "李神到厚櫃間的________",
+    "en": "",
+    "members": [
+      "W52",
+      "W53"
+    ],
+    "cover": "li-shen-001",
+    "path": "series/li-shen.html",
+    "latest_year": 2023,
+    "latest_work_date": "2023.03",
+    "latest_work_date_precision": "month",
+    "navigation_items": [
+      {
+        "work_id": "W53",
+        "title": "李神到厚櫃間的________拷貝",
+        "path": "series/li-shen.html#w53"
+      },
+      {
+        "work_id": "W52",
+        "title": "李神到厚櫃間的________",
+        "path": "series/li-shen.html#w52"
+      }
+    ]
   },
   {
     "id": "big-duel",
@@ -345,6 +395,8 @@
     "cover": "big-duel-021",
     "path": "series/big-duel.html",
     "latest_year": 2023,
+    "latest_work_date": "2023",
+    "latest_work_date_precision": "year",
     "navigation_items": [
       {
         "work_id": "W12",
@@ -424,42 +476,6 @@
     ]
   },
   {
-    "id": "li-shen",
-    "zh": "李神到厚櫃間的________",
-    "en": "",
-    "members": [
-      "W52",
-      "W53"
-    ],
-    "cover": "li-shen-001",
-    "path": "series/li-shen.html",
-    "latest_year": 2023,
-    "navigation_items": [
-      {
-        "work_id": "W52",
-        "title": "李神到厚櫃間的________",
-        "path": "series/li-shen.html#w52"
-      },
-      {
-        "work_id": "W53",
-        "title": "李神到厚櫃間的________拷貝",
-        "path": "series/li-shen.html#w53"
-      }
-    ]
-  },
-  {
-    "id": "w50",
-    "zh": "顯視錯誤：404",
-    "en": "vision404",
-    "members": [
-      "W50"
-    ],
-    "cover": "vision404-018",
-    "path": "works/w50.html",
-    "latest_year": 2023,
-    "navigation_items": []
-  },
-  {
     "id": "w48",
     "zh": "茫茫",
     "en": "bông-bông",
@@ -469,6 +485,8 @@
     "cover": "bong-bong-005",
     "path": "works/w48.html",
     "latest_year": 2023,
+    "latest_work_date": "2023",
+    "latest_work_date_precision": "year",
     "navigation_items": []
   },
   {
@@ -481,6 +499,8 @@
     "cover": "look-over-there-002",
     "path": "works/w47.html",
     "latest_year": 2022,
+    "latest_work_date": "2022",
+    "latest_work_date_precision": "year",
     "navigation_items": []
   },
   {
@@ -493,6 +513,8 @@
     "cover": "godzilla-zip-006",
     "path": "works/w08.html",
     "latest_year": 2021,
+    "latest_work_date": "2021",
+    "latest_work_date_precision": "year",
     "navigation_items": []
   }
 ]

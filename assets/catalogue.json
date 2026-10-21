@@ -543,9 +543,9 @@
     "medium": "壓克力顏料、石頭漆、木作、保麗龍",
     "dimensions": "依場地而定",
     "image_presentation": "installations",
-    "category": "w27",
-    "navigation_group": "w27",
-    "series_page": "works/w27.html",
+    "category": "kaiju-boom",
+    "navigation_group": "kaiju-boom",
+    "series_page": "series/kaiju-boom.html",
     "cover": "assets/images/kaiju-boom-solo-012-view.webp",
     "photo_status": "ready",
     "page": "works/w27.html",
@@ -1065,7 +1065,9 @@
         "year": "2023",
         "page": "exhibitions/signal-z-2023.html"
       }
-    ]
+    ],
+    "creation_date": "2023.07",
+    "creation_date_precision": "month"
   },
   {
     "id": "w51",
@@ -1085,7 +1087,7 @@
     "exhibitions": [
       {
         "id": "koganecho-bazaar-2024",
-        "title": "黃金町巴扎2024",
+        "title": "The World, Not According to Art",
         "year": "2024",
         "page": "exhibitions/koganecho-bazaar-2024.html"
       }
@@ -1123,7 +1125,9 @@
     "photo_status": "ready",
     "page": "works/w53.html",
     "components": [],
-    "exhibitions": []
+    "exhibitions": [],
+    "creation_date": "2023.03",
+    "creation_date_precision": "month"
   },
   {
     "id": "w54",
