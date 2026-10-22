@@ -1,0 +1,32 @@
+{
+  "responsiveChecks": 88,
+  "widths": [
+    320,
+    390,
+    768,
+    900,
+    901,
+    1024,
+    1440,
+    1920
+  ],
+  "priorityImagesOnKaijuPage": 1,
+  "lazyImagesOnKaijuPage": 33,
+  "initiallyRequestedViews": 3,
+  "mobileTouchSwipe": true,
+  "keyboardViewerAndFocusRestore": true,
+  "photographerCreditInViewer": true,
+  "imageFailureAndRecovery": true,
+  "mobileEscape": true,
+  "noJavaScriptNavigation": true,
+  "nested404Recovery": true,
+  "errors": [],
+  "failures": [],
+  "review_date": "2026-10-22",
+  "static_html_pages": 87,
+  "sitemap_urls": 84,
+  "approved_page_contents_preserved": 86,
+  "artist_image_files_changed": 0,
+  "pages_activated": false,
+  "main_merged": false
+}

@@ -15,6 +15,21 @@
 - 展覽列表，一列一檔：[桌機](preview/exhibitions-desktop.png)／[手機](preview/exhibitions-mobile.png)
 - 《直至綻放》照片與展出連結：[桌機](preview/until-it-blooms-desktop.png)／[手機](preview/until-it-blooms-mobile.png)
 - `not / A SOLDIER` 展覽照片及本展作品：[桌機](preview/not-a-soldier-desktop.png)／[手機](preview/not-a-soldier-mobile.png)
+- 手機圖片檢視器與攝影署名：[畫面](preview/viewer-mobile.png)
+- 找不到頁面時的返回入口：[桌機](preview/404-desktop.png)
+
+## 整站收尾
+
+已確認的作品、展覽、排序、分類與原有畫面配置保留。本輪補上：
+
+- 每頁首圖優先載入，其餘照片按需載入；《怪獸繁榮》34張大圖中只有首張使用最高載入優先順序。
+- 圖片檢視器支援手機左右滑動、鍵盤左右鍵、Escape關閉及返回原操作位置，並顯示已確認的攝影署名。
+- 圖片載入狀態、無法載入時的提示及另開圖片連結；原有圖片連結在不使用JavaScript時仍可操作。
+- 手機選單可用Escape收合；各件作品及主內容可作鍵盤定位。
+- 各頁的搜尋摘要、分享標題與代表圖片、標準網址、網站圖示、`sitemap.xml`、`robots.txt`及`.nojekyll`。
+- `404.html`使用相同版型，提供首頁、作品與展覽入口；深層網址下的返回連結也可使用。
+
+以上都是預覽分支中的檔案，沒有啟用GitHub Pages。兩支個展紀錄影片及《怪獸早已出現》的播放來源仍可於收到連結後補入。
 
 ## 本版架構
 
@@ -54,7 +69,7 @@ python3 -m http.server 8000
 - `exhibitions.html`、`exhibitions/`：單欄展覽索引與各展覽圖庫。
 - `about.html`、`cv.html`、`contact.html`：藝術家資料。
 - `assets/style.css`：樣式與響應式排版；`assets/site.js`：可用鍵盤操作的圖片檢視器。
-- `assets/images/`：WebP網頁版。來源原檔保留在內容整理區；僅縮放、色彩描述檔轉換及壓縮，不重畫、不調整彩度或亮度。
+- `assets/images/`：由作者原圖製作的WebP網頁版；原始上傳檔未收錄於這個儲存庫。本輪沒有重新處理或更動畫作照片。
 - `assets/catalogue.json`、`assets/series.json`、`assets/exhibitions.json`：公開資料對照。頁面內容已直接寫入HTML，不依賴執行時讀取JSON。
 - 舊的 `paintings.html` 與 `installations.html` 保留為相同的系列索引，以相容先前連結。
 
@@ -67,6 +82,21 @@ python3 -m http.server 8000
 內部連結使用相對路徑，根目錄的圖檔以 `assets/` 開頭，子頁以 `../assets/` 開頭。新增系列需同步調整各頁左右兩套導覽（桌機／手機）、系列頁及作品索引。
 
 補影片時將已確認的連結放入對應展覽頁，《看他一臉扁平》、《怪獸繁榮》的個展紀錄與《怪獸早已出現》的錄像作品分開標示。
+
+## 內容更新後檢查
+
+網站本身不需要安裝或編譯。下列為可選的編輯工具，只使用Python標準函式庫：
+
+```sh
+python3 scripts/prepare_site.py
+python3 scripts/check_site.py
+```
+
+第一個指令依公開JSON對照資料及既有HTML更新分享資料、載圖順序、404頁與網站地圖；不重建作品正文或選單，也不發布網站。修改作品時仍須同步HTML與JSON。第二個指令檢查所有頁面的本地連結、錨點、圖片資訊、分享資料及網站地圖。
+
+分享網址目前按預定GitHub Pages網址`https://puwei-lab.github.io/`準備；未來如使用自訂網域，先調整`scripts/prepare_site.py`中的`URL`再執行。
+
+本次以Chromium檢查320、390、768、900、901、1024、1440與1920px共88組排版，並測試觸控滑動、鍵盤與焦點恢復、圖片載入失敗後切換、無JavaScript導覽及深層404返回流程。87頁的本地連結、圖片與分享資料檢查通過。正式影片連結仍待補，未加入無效播放器。
 
 ## 確認後才發布
 
