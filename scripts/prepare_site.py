@@ -57,6 +57,21 @@ def create_not_found():
     (ROOT / "404.html").write_text(template)
 
 
+def exhibition_videos(event):
+    videos = event.get("videos", [])
+    if not videos:
+        return ""
+    body = '<!-- exhibition videos --><section class="exhibition-video" id="video" aria-labelledby="video-heading"><div class="gallery-head"><h2 id="video-heading">展場動態紀錄</h2><span>EXHIBITION VIDEO</span></div>'
+    for video in videos:
+        video_id = video["youtube_id"]
+        if not re.fullmatch(r"[A-Za-z0-9_-]{11}", video_id):
+            raise ValueError("Invalid YouTube video ID: " + video_id)
+        title = escape(video["title"], quote=True)
+        url = escape(video["url"], quote=True)
+        body += f'<div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/{video_id}" title="{title}" width="560" height="315" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="video-link"><a href="{url}" target="_blank" rel="noopener noreferrer">在 YouTube 觀看 ↗</a></p>'
+    return body + '</section><!-- /exhibition videos -->'
+
+
 def prepare():
     catalogue = {row["page"]: row for row in load("catalogue.json")}
     series = {row["path"]: row for row in load("series.json")}
@@ -81,6 +96,15 @@ def prepare():
             cover = "assets/images/" + group["cover"] + "-view.webp"
         elif relative in exhibitions:
             event = exhibitions[relative]
+            text = re.sub(r'<!-- exhibition videos -->.*?<!-- /exhibition videos -->', "", text, flags=re.S)
+            video_section = exhibition_videos(event)
+            if video_section:
+                marker = '<section class="exhibited-works"'
+                if marker not in text:
+                    marker = '<div class="gallery-head"><h2>展場紀錄</h2>'
+                if marker not in text:
+                    raise ValueError("Missing exhibition video insertion point: " + relative)
+                text = text.replace(marker, video_section + marker, 1)
             description = "｜".join([event["zh"], event.get("date", event["year"]), event["venue"], "吳柏葳 PUWEI WU 展覽現場紀錄"])
             cover = "assets/images/" + event["cover"] + "-view.webp"
         elif relative == "index.html":
